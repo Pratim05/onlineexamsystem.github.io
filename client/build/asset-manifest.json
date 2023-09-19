@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e9298f2.css",
+    "main.js": "/static/js/main.248140f7.js",
+    "static/media/st_icon.png": "/static/media/st_icon.c96f8990fd9dfba4c6b3.png",
+    "static/media/main_logo.png": "/static/media/main_logo.1c884a3efd68a22b497d.png",
+    "static/media/Student_details.png": "/static/media/Student_details.cc01f0fef3100944ee4a.png",
+    "static/media/exam.png": "/static/media/exam.b9d4b9b14dea69deb12f.png",
+    "static/media/admin-icon.png": "/static/media/admin-icon.967d487cea7db8b38269.png",
+    "static/media/drop.png": "/static/media/drop.abd77e76abbe0ed41d1c.png",
+    "static/media/Create-exam.png": "/static/media/Create-exam.3359da336a0b83cb6abb.png",
+    "static/media/View_result.png": "/static/media/View_result.058377f845ea10870097.png",
+    "static/media/ManageExam.png": "/static/media/ManageExam.c0eb1c8133815bbb1b8a.png",
+    "static/media/Unlock.png": "/static/media/Unlock.44441fa59d6caea97cd0.png",
+    "static/media/SampleQuestionFile.xlsx": "/static/media/SampleQuestionFile.0ba1e5fa73f0a03ec91d.xlsx",
+    "static/media/Student_management.png": "/static/media/Student_management.4b78bab1752152944765.png",
+    "static/media/Lock.png": "/static/media/Lock.3f109a7e99c550e218fd.png",
+    "static/media/guide.png": "/static/media/guide.efdb487c9b793f9f2cb7.png",
+    "static/media/Home_icon.png": "/static/media/Home_icon.c3e3466129eb0cbae088.png",
+    "index.html": "/index.html",
+    "main.4e9298f2.css.map": "/static/css/main.4e9298f2.css.map",
+    "main.248140f7.js.map": "/static/js/main.248140f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e9298f2.css",
+    "static/js/main.248140f7.js"
+  ]
+}
