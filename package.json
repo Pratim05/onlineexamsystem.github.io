@@ -1,4 +1,13 @@
 {
+  "scripts" :{
+    
+    "dev": "concurrently \"npm start\" \"npm run client\"",
+    "server" : "nodemon app.js",
+    "client" : "npm start --prefix ./client",
+    "start": "node app.js"
+     },
+
+
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.6",
