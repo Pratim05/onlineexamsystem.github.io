@@ -27,7 +27,7 @@ const comparePassword = (password, hashed)=>{
 
 const authToken= (req, res, next) => {
     const token = req.cookies.jwt; // Assuming you're using cookies to store the token
-    console.log('middleware Triggred')
+    // console.log('middleware Triggred')
     if (token) {
         jwt.verify(token, process.env.SECRET_KEY, (err, decodedToken) => {
             if (err) {

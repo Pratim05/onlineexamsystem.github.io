@@ -213,7 +213,7 @@ app.post('/Adminlogin', async(req,res) =>{
 app.post('/Dashboard', async (req, res) => {
 
   const {studentId,examId,action} = req.body
-   console.log(req.body)
+  //  console.log(req.body)
 
    //Get the all student Data
   if (action  === 'studentData'){ 
@@ -301,7 +301,7 @@ else  if(action === 'deletestudent'){
 //Delete Exam
 else if(action === 'deleteExam'){
     try {
-      console.log(examId)
+      // console.log(examId)
         // Delete the exam's data from the database
         await QuestionModel.findByIdAndDelete(examId);
     
@@ -348,7 +348,7 @@ app.post('/Dashboard/create-exam', async (req, res) => {
       Exam: examData,
       QuestionFile: jsonData,
     };
-    console.log(ExamData)
+    // console.log(ExamData)
 
     // Insert the data into MongoDB
     await QuestionModel.insertMany([ExamData]);
@@ -386,7 +386,7 @@ app.post('/home/exam_start',async(req,res)=>{
 app.post("/Dashboard/ViewResult",async(req,res)=>{
 
   const {StudentName,StudentRollNo,action,ExamData,Score,Warnings} = req.body
-  console.log("req from result",req.body)
+  // console.log("req from result",req.body)
 
   if (action == "SaveResult") {
     try {
@@ -398,7 +398,7 @@ app.post("/Dashboard/ViewResult",async(req,res)=>{
         Exam_name: ExamData["Exam_name"],
         Total_Marks: ExamData["No_of_questions"],
       };
-      console.log("ResultIdentifier", resultIdentifier);
+      // console.log("ResultIdentifier", resultIdentifier);
 
       // Check if a record with the same identifier already exists
       const existingResult = await StudentResultModel.findOne(resultIdentifier);
